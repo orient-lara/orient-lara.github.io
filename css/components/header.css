@@ -1,0 +1,77 @@
+#header {
+  background-image: linear-gradient(rgba(18, 16, 34, 0.3), rgba(6, 6, 11, 0.7)), url('../construcao2.png');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#header h2{
+  color: #fff;
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+
+}
+
+#header p{
+  width: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height:  25px;
+  
+}
+
+#header .btn{
+  margin-top: 30px;
+}
+
+#header a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#header a.red{
+  color: #fff;
+  font-size: 1.4rem;
+  background-color: rgb(163, 6, 6);
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    height: 60vh
+  }
+
+  #header h2{
+    font-size: 2.2rem;
+  
+  }
+  
+  #header p{
+    width: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height:  25px;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #header {
+    width: 110vw;
+  }
+}
