@@ -5,6 +5,10 @@
   padding-top: 7rem;
   padding-bottom: 7rem;
   background-color: white;
+  background-image: url('/assets/fundo-de-tela-orient-lara-4.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 #tecnologias h1{
@@ -14,7 +18,7 @@
 }
 
 #tecnologias p{
-  color: #777;
+  color: black;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -29,13 +33,13 @@
 
 .cards-tec{
   flex-basis: 31%;
-  background: #f9f6f6;
+  /*background: #f9f6f6;*/
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.3s all ease-in-out;
-  border: 2px solid #fff;
+  /*border: 2px solid #fff;*/
 }
 
 
