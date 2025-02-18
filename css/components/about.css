@@ -44,6 +44,10 @@
 
 
 @media only screen and (max-width: 768px) {
+  #tecnologias{
+    background-image: none;
+  }
+
   .cards{
     flex-direction: column;
     align-items: center;
