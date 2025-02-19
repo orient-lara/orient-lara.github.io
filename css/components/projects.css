@@ -1,14 +1,14 @@
 
  .container{  
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 1rem;
 } 
 
 .slider-wrapper{
   position: relative;
 }
 
-.slider-wrapper .slide-button{
+/* .slider-wrapper .slide-button{
   position: absolute;
   height: 50px;
   width: 50px;
@@ -19,7 +19,7 @@
   font-size: 2.2rem;
   cursor: pointer;
   border-radius: 50%;
-}
+} */
 
 .slider-wrapper .slide-button:hover{
   background: #444;
@@ -42,17 +42,16 @@
   right: -20px;
 }
 
-.slider-wrapper .image-list{
-  display: grid;
+/* .slider-wrapper .image-list{
+  display: flex;
+  justify-content: center;
   gap: 18px;
   font-size: 0;  
   margin-bottom: 30px;
   overflow-x: auto;
   scrollbar-width: none;
   grid-template-columns: repeat(10, 1fr);
-}
-
-
+} */
 
 .slider-wrapper .image-list .image-item{
   width: 325px;
@@ -111,6 +110,7 @@
   font-size: 36px;
   font-weight: 600;
   color: black;
+  margin-bottom: -120px;
 }
 
 #projects .btn{
@@ -131,27 +131,6 @@
   font-size: 1.4rem;
   background-color: #cc3333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .projects {
   margin-bottom: 16rem;
@@ -230,5 +209,16 @@
   .slider-scrollbar .scrollbar-thumb{
     width: 20%;
     
+  }
+
+  .slider-wrapper .image-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0;  
+    margin-bottom: 15px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
   }
 }

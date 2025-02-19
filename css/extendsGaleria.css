@@ -1,0 +1,8 @@
+@import './variables.css';
+@import './globals.css';
+
+
+@import './componentsGaleria/navbar.css';
+@import './componentsGaleria/projects.css';
+@import './componentsGaleria/footer.css';
+@import './galeria.css';

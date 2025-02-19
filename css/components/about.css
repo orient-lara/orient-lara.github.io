@@ -53,6 +53,11 @@
     align-items: center;
   }
 
+  .cards-tec{
+    background: #f9f6f6;
+    border: 2px solid #fff;
+  }
+
   .about .about__left {
     max-width: 66rem;
     text-align: center;
