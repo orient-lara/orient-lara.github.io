@@ -41,6 +41,11 @@ img{
   align-items: center;
 }
 
+.insta{
+  margin-left: -1.1rem;
+  margin-right: 0.8rem;
+}
+
 footer .footer__content .footer__copyright {
   font-size: 1.4rem;
 }
